@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="blur"></div>
+<header>        
+    <nav class="menu">
+          <ul class= "lista">
+            <li><a href="#">Português</a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">About the Page</a></li>
+            <li>Contact-me: isaacnotwen@protonmail.com</li>
+          </ul>
+        </nav>
+            <h1 class='title'><br>Davi Pereira<br></h1>
+            <h2 class='subtitle'>~Beginner programmer in css, html and javscript<br></h2>
+</header>
+            <p class="introducao">Welcome to my very first website!</p>
+            <h3 class='historia'>Im a programming entusiatic since the "QuarentenaDev" came out. I already knew some basic arguments, but it was the litlle push that I needed. And nowadays I'm studying css and devoloping this test page.</h3>
+               <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            header {
+                height: 335px;
+            }
+
+            .introducao {
+                height: 350px;
+            }    
+                body {
+                    font-family: Consolas,Arial;
+                    height: 100vh;
+                    width: 100vW;
+                    background-image: url(1.jpeg);
+                    background-size: 100%;
+                    background-attachment: fixed;
+                    ;
+                }
+
+        .menu ul {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: snow;
+            border: double
+            }
+
+        .menu li {
+            list-style: none;
+            }
+
+        a {
+            text-decoration: none;
+            }
+
+        a:hover {
+            text-decoration: wavy;
+            }
+
+        .title {
+          text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+            text-align: center;
+            color: orange;
+            font-size: 53pt;
+            }
+        .subtitle {
+            text-align: center;
+                text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+                font-size: 20pt;
+                 color: #339966;
+                }
+
+.introducao {
+  text-align: center;
+  color: #00ff80;
+  font-size: 16pt;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+  .historia {
+    width: 70%;
+    border: double;
+    color: #1a8cff;
+    margin-left: 280px;
+    font-size: 20pt;
+  } 
+            </style>
+</body>
+</html>
